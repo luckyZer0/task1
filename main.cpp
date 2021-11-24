@@ -10,10 +10,10 @@ int main() {
     cin >> h;
 
     if (h % 2 == 0) {
-        cout << "its an odd number";
+        cout << h << " its an odd number";
     }
     else {
-        cout << "its an even number";
+        cout << h << " its an even number";
     }
     return 0;
 }
