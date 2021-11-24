@@ -12,6 +12,9 @@ int main() {
     if (h % 2 == 0) {
         cout << h << " its an odd number";
     }
+    elseif (h == 0) {
+        cout << h << " ERROR";
+    }
     else {
         cout << h << " its an even number";
     }
