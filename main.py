@@ -2,7 +2,8 @@
 x = 50
 y = 45
 z = x + y
-print(z)
+s = z * y / x
+print(z, y)
 
-if z != y:
+if z != s:
     print("LOL")
